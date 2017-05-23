@@ -27,11 +27,11 @@ body {
   /*border: 3px solid hotpink;*/
 }
 
-.moveable-polaroid {
+/*.moveable-polaroid {
   position: absolute;
   top: 30%;
   left: 24%;
-}
+}*/
 
 .polaroid {
   width: 340px;
@@ -39,14 +39,16 @@ body {
   background-repeat: no-repeat;
   /*background-image: url("../img/snail.png");*/
   background-size: cover;
-  position: relative;
   border: 3px solid red;
-  /*transform: translate(-50%, );*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #snail {
-  height: 300px;
-  width: 300px;
+  height: 305px;
+  width: 305px;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -64,5 +66,35 @@ body {
 #one {
   position: absolute;
   width: inherit;
-  border: 2px solid yellow;
+  transform: translate(1%, 1%);
+}
+
+#two {
+  position: absolute;
+  width: 113%;
+  transform: translate(-4%, -3%);
+}
+
+#three {
+  position: absolute;
+  width: 125%;
+  transform: translate(-8.75%, -6%);
+}
+
+#four {
+  position: absolute;
+  width: 139%;
+  transform: translate(-13%, -9%);
+}
+
+#five {
+  position: absolute;
+  width: 153%;
+  transform: translate(-16%, -12%);
+}
+
+#six {
+  position: absolute;
+  width: 167%;
+  transform: translate(-18.5%, -14%);
 }
