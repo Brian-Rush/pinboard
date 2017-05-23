@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  border: 10px solid springgreen;
+  position: relative;
+}
+/*
+, body, .container {
+  height: 100%;
+}*/
+
+html {
+  border: 3px solid green;
+}
+
+body {
+  background-image: url("../img/cork-board.jpg");
+  /*border: 3px solid hotpink;*/
+}
+
+.moveable-polaroid {
+  position: absolute;
+  top: 30%;
+  left: 24%;
+}
+
+.polaroid {
+  width: 340px;
+  height: 407px;
+  background-repeat: no-repeat;
+  /*background-image: url("../img/snail.png");*/
+  background-size: cover;
+  position: relative;
+  border: 3px solid red;
+  /*transform: translate(-50%, );*/
+}
+
+#snail {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.pin {
+  height: 40px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1
+}
+
+#one {
+  position: absolute;
+  width: inherit;
+  border: 2px solid yellow;
+}
